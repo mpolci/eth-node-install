@@ -5,6 +5,12 @@ Very basic Ansible installation script for Ethereum node (Parity or Geth) on ubu
 
 Ansible version 2.1.0 or greather is required.
 
+Intall dependecies:
+
+```
+ansible-galaxy install -r requirements.yml
+```
+
 Modify the file `hosts` adding the hosts you want to install. There are two sections, 
 one for hosts with Parity and one for Geth.
 

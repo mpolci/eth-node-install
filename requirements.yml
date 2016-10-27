@@ -1,0 +1,8 @@
+- src: https://github.com/mpolci/ansible-role-parity.git
+  version: master
+  name: ethereum-parity
+
+- src: https://github.com/mpolci/ansible-role-geth.git
+  version: master
+  name: ethereum-geth
+
